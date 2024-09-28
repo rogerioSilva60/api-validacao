@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for validacao on 2024-09-28T15:36:44-03:00
+# fly.toml app configuration file generated for validacao-dry-waterfall-8535 on 2024-09-28T15:52:47-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "validacao"
-primary_region = "gig"
+app = "validacao-dry-waterfall-8535"
+primary_region = "gru"
 
 [http_service]
   internal_port = 8080
@@ -17,4 +17,4 @@ primary_region = "gig"
 [[vm]]
   cpu_kind = "shared"
   cpus = 1
-  memory_mb = 1024
+  memory_mb = 256
